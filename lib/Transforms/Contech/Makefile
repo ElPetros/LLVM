@@ -20,4 +20,4 @@ endif
 
 include $(LEVEL)/Makefile.common
 
-LIB = $(LIB)
+LIB = -lct-event:$(LIB)

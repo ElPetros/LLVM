@@ -1,0 +1,261 @@
+The system is: Linux - 2.6.18-274.el5 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /net/tinker/local/bin/clang-cilk 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/net/tinker/peskinde/llvm/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /net/tinker/local/bin/clang++-cilk 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/net/tinker/peskinde/llvm/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3937983253/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3937983253.dir/build.make CMakeFiles/cmTryCompileExec3937983253.dir/build
+gmake[1]: Entering directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp'
+/net/tinker/local/bin/cmake -E cmake_progress_report /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3937983253.dir/testCCompiler.c.o
+/net/tinker/local/bin/clang-cilk    -o CMakeFiles/cmTryCompileExec3937983253.dir/testCCompiler.c.o   -c /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3937983253
+/net/tinker/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3937983253.dir/link.txt --verbose=1
+/net/tinker/local/bin/clang-cilk       CMakeFiles/cmTryCompileExec3937983253.dir/testCCompiler.c.o  -o cmTryCompileExec3937983253 -rdynamic 
+gmake[1]: Leaving directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3168740953/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3168740953.dir/build.make CMakeFiles/cmTryCompileExec3168740953.dir/build
+gmake[1]: Entering directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp'
+/net/tinker/local/bin/cmake -E cmake_progress_report /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o
+/net/tinker/local/bin/clang-cilk    -o CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o   -c /net/tinker/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3168740953
+/net/tinker/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3168740953.dir/link.txt --verbose=1
+/net/tinker/local/bin/clang-cilk     -v CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3168740953 -rdynamic  
+Clang Front-End version 3.4.1 (https://github.com/cilkplus/clang eba5c0be870ebe08a7dac93173e90a9770df374e)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+Found candidate GCC installation: /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0
+Found candidate GCC installation: /usr/lib/gcc/i386-redhat-linux/4.1.1
+Found candidate GCC installation: /usr/lib/gcc/i386-redhat-linux/4.1.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/3.4.6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.1.1
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.1.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux6E/4.4.7
+Selected GCC installation: /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0
+ "/net/tinker/local/bin/ld" -export-dynamic --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3168740953 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtbegin.o -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0 -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../.. -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3168740953/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3168740953.dir/build.make CMakeFiles/cmTryCompileExec3168740953.dir/build]
+  ignore line: [gmake[1]: Entering directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp']
+  ignore line: [/net/tinker/local/bin/cmake -E cmake_progress_report /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/net/tinker/local/bin/clang-cilk    -o CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o   -c /net/tinker/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3168740953]
+  ignore line: [/net/tinker/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3168740953.dir/link.txt --verbose=1]
+  ignore line: [/net/tinker/local/bin/clang-cilk     -v CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3168740953 -rdynamic  ]
+  ignore line: [Clang Front-End version 3.4.1 (https://github.com/cilkplus/clang eba5c0be870ebe08a7dac93173e90a9770df374e)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Found candidate GCC installation: /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i386-redhat-linux/4.1.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i386-redhat-linux/4.1.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/3.4.6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.1.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux6E/4.4.7]
+  ignore line: [Selected GCC installation: /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0]
+  link line: [ "/net/tinker/local/bin/ld" -export-dynamic --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3168740953 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtbegin.o -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0 -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../.. -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/net/tinker/local/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3168740953] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtbegin.o] ==> ignore
+    arg [-L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0] ==> dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0]
+    arg [-L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64] ==> dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib] ==> dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib]
+    arg [-L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../..] ==> dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../..]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec3168740953.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0] ==> [/net/tinker/local/lib/gcc/x86_64-unknown-linux-gnu/4.7.0]
+  collapse library dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64] ==> [/net/tinker/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib] ==> [/net/tinker/local/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../..] ==> [/net/tinker/local/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/net/tinker/local/lib/gcc/x86_64-unknown-linux-gnu/4.7.0;/net/tinker/local/lib64;/lib64;/usr/lib64;/net/tinker/local/x86_64-unknown-linux-gnu/lib;/net/tinker/local/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3200371203/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3200371203.dir/build.make CMakeFiles/cmTryCompileExec3200371203.dir/build
+gmake[1]: Entering directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp'
+/net/tinker/local/bin/cmake -E cmake_progress_report /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3200371203.dir/testCXXCompiler.cxx.o
+/net/tinker/local/bin/clang++-cilk     -o CMakeFiles/cmTryCompileExec3200371203.dir/testCXXCompiler.cxx.o -c /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3200371203
+/net/tinker/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3200371203.dir/link.txt --verbose=1
+/net/tinker/local/bin/clang++-cilk        CMakeFiles/cmTryCompileExec3200371203.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3200371203 -rdynamic 
+gmake[1]: Leaving directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3518690046/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3518690046.dir/build.make CMakeFiles/cmTryCompileExec3518690046.dir/build
+gmake[1]: Entering directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp'
+/net/tinker/local/bin/cmake -E cmake_progress_report /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o
+/net/tinker/local/bin/clang++-cilk     -o CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o -c /net/tinker/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3518690046
+/net/tinker/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3518690046.dir/link.txt --verbose=1
+/net/tinker/local/bin/clang++-cilk      -v CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3518690046 -rdynamic  
+Clang Front-End version 3.4.1 (https://github.com/cilkplus/clang eba5c0be870ebe08a7dac93173e90a9770df374e)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+Found candidate GCC installation: /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0
+Found candidate GCC installation: /usr/lib/gcc/i386-redhat-linux/4.1.1
+Found candidate GCC installation: /usr/lib/gcc/i386-redhat-linux/4.1.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/3.4.6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.1.1
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.1.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux6E/4.4.7
+Selected GCC installation: /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0
+ "/net/tinker/local/bin/ld" -export-dynamic --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3518690046 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtbegin.o -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0 -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../.. -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3518690046/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3518690046.dir/build.make CMakeFiles/cmTryCompileExec3518690046.dir/build]
+  ignore line: [gmake[1]: Entering directory `/net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp']
+  ignore line: [/net/tinker/local/bin/cmake -E cmake_progress_report /net/tinker/peskinde/llvm/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/net/tinker/local/bin/clang++-cilk     -o CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o -c /net/tinker/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3518690046]
+  ignore line: [/net/tinker/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3518690046.dir/link.txt --verbose=1]
+  ignore line: [/net/tinker/local/bin/clang++-cilk      -v CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3518690046 -rdynamic  ]
+  ignore line: [Clang Front-End version 3.4.1 (https://github.com/cilkplus/clang eba5c0be870ebe08a7dac93173e90a9770df374e)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Found candidate GCC installation: /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i386-redhat-linux/4.1.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i386-redhat-linux/4.1.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/3.4.6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.1.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux6E/4.4.7]
+  ignore line: [Selected GCC installation: /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0]
+  link line: [ "/net/tinker/local/bin/ld" -export-dynamic --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3518690046 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtbegin.o -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0 -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib -L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../.. -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/net/tinker/local/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3518690046] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtbegin.o] ==> ignore
+    arg [-L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0] ==> dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0]
+    arg [-L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64] ==> dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib] ==> dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib]
+    arg [-L/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../..] ==> dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../..]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec3518690046.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0] ==> [/net/tinker/local/lib/gcc/x86_64-unknown-linux-gnu/4.7.0]
+  collapse library dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../lib64] ==> [/net/tinker/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../../../x86_64-unknown-linux-gnu/lib] ==> [/net/tinker/local/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/net/tinker/local/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.0/../../..] ==> [/net/tinker/local/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/net/tinker/local/lib/gcc/x86_64-unknown-linux-gnu/4.7.0;/net/tinker/local/lib64;/lib64;/usr/lib64;/net/tinker/local/x86_64-unknown-linux-gnu/lib;/net/tinker/local/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+

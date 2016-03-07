@@ -428,7 +428,8 @@ endif( ${CMAKE_SYSTEM_NAME} MATCHES SunOS )
 # Make sure we don't get -rdynamic in every binary. For those that need it,
 # use set_target_properties(target PROPERTIES ENABLE_EXPORTS 1)
 set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS "")
-
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wno-c++0x-compat") 
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libstdc++")
 include(AddLLVM)
 include(TableGen)
 
@@ -530,3 +531,16 @@ if(MSVC_VERSION EQUAL 1600)
   endif()
 endif()
 
+
+include(CheckCXXCompilerFlag)
+CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
+if(COMPILER_SUPPORTS_CXX11)
+   # SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wno-c++0x-compat")
+   # SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
+    message(STATUS "PETROS - ${CMAKE_CXX_FLAGS}")	
+    message(STATUS "PETROS - Using c++11 ")
+else()
+        message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11
+support. Please use a different C++ compiler.")
+endif()
