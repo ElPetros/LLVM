@@ -421,6 +421,8 @@ if( ${CMAKE_SYSTEM_NAME} MATCHES FreeBSD )
   link_directories("/usr/local/lib")
 endif( ${CMAKE_SYSTEM_NAME} MATCHES FreeBSD )
 
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
 if( ${CMAKE_SYSTEM_NAME} MATCHES SunOS )
    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -include llvm/Support/Solaris.h")
 endif( ${CMAKE_SYSTEM_NAME} MATCHES SunOS )
